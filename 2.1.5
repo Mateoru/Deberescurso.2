@@ -1,0 +1,9 @@
+"Realiza una función llamada recortar() que reciba tres parámetros. El primero es el número a recortar, el segundo es el límite inferior y el tercero el límite superior. La función tendrá que cumplir lo siguiente"
+
+def recortar(numero, minimo, maximo):
+    if numero<minimo:
+        return minimo
+    elif numero>maximo:
+        return maximo
+    return numero
+print( recortar(15, 0, 10) )
