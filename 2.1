@@ -1,0 +1,19 @@
+"Realiza un programa que lea dos números por teclado y permita elegir entre 3 opciones en un menú:Realiza un programa que lea dos números por teclado y permita elegir entre 3 opciones en un menú"
+
+n1=float(input("introduce un numero:"))
+n2=float(input("introduce otro numero:"))
+ 
+print("que quieres hacer?")
+print("[1]sumar dos numero:")
+print("[2]restar dos numeros:")
+print("[3]multiplicar dos numeros:")
+ 
+opcion=input("introduce una opcion")
+if opcion=="1":
+    print("la suma de",n1,"+",n2,"es",n1+n2)
+elif opcion=="2":
+    print("la resta de",n1,"-",n2,"es",n1-n2)
+elif opcion=="3":
+    print("la multiplicacion de",n1,"*",n2,"es",n1*n2)
+else:
+    print("esta opcion no existe")
